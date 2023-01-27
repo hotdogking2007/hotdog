@@ -10,12 +10,12 @@
 <body>
     <script defer src="https://unpkg.com/alpinejs@3.10.5/dist/cdn.min.js"></script>
     <div class="header">
-        <h3 class="center1">핫도그 개인사이트</h1>
+        <h3 style="padding-top:5px" class="center1">핫도그 개인사이트</h1>
         <h5 style="color:gray;text-align: center;">왜 만듬? -> 심심해서..</h5>
     </div>
     <div x-data="{open: false}">
-        <button @click="open = !open">카테르이카 디스코드 서버</button>
-        <a x-show="open" style="left:5px;background-color: rgb(30, 30, 30);color:white;border-radius: 5px;height:50%;">https://discord.gg/UCephPaqj5</a>
+        <button @click="open = !open" style="left: 5%;">카테르이카 디스코드 서버</button>
+        <a href="https://discord.gg/UCephPaqj5" x-show="open" style="padding:5px 3px 3px 5px;background-color: rgb(30, 30, 30);color:white;border-radius: 5px;height:50%;">https://discord.gg/UCephPaqj5</a>
     </div>
 </body>
 </html>
